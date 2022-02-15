@@ -1,0 +1,12 @@
+@import "_variables.scss";
+
+.icon-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.icon-row > * {
+    margin-left: 5px;
+}
+  

@@ -1,0 +1,126 @@
+@import "_variables.scss";
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .logo {
+    position: relative;
+    width: 25px;
+    height: 61px;
+    @include mq(xs) {
+      width: 18px;
+      z-index:1000;
+    }
+  
+    @include mq(sm) {
+      width: 18px;
+    }
+  
+    @include mq(md) {
+      width: 20px;
+    }
+  
+    @include mq(lg) {
+      width: 25px;
+    }
+  
+    @include mq(xl) {
+     
+    }
+  }
+  .menu-wrapper {
+    position: relative;
+    z-index: 999;
+    top: -12px;
+    .nav-menu {
+
+
+
+     
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 830ms cubic-bezier(0.19, 1, 0.22, 1),
+        transform 830ms cubic-bezier(0.19, 1, 0.22, 1), visibility 830ms step-end;
+
+        @include mq(xs) {
+          position: fixed;
+          top: 0;
+          right: 0;
+          padding: 8rem 3rem 3rem 3rem;
+          width: 100%;
+          height: 100%;
+      }
+      @include mq(sm) {
+        position: absolute;
+        top: -2rem;
+        right: -2rem;
+        padding: 4rem;
+        width: 22.223em !important;
+        width: 100%;
+        height: auto;
+        }
+      .section {
+        padding: 1.5rem 0rem;
+        div {
+          padding: 0.8rem 0rem;
+        }
+        div:first-child {
+          padding: 0rem 0rem 0.8rem 0rem;
+        }
+        div:last-child {
+          padding: 0.8rem 0rem 0rem 0rem;
+        }
+      }
+      .section:first-child {
+        padding: 0rem 0rem 1.5rem 0rem;
+      }
+      .section:last-child {
+        padding: 1.5rem 0rem 0rem 0rem;
+      }
+      &.activated {
+        z-index: 99;
+        background-color: #212129;
+        box-shadow: 0 10px 53px 0 #00000069;
+        opacity: 1;
+        transform: none;
+        transition: opacity 830ms cubic-bezier(0.19, 1, 0.22, 1),
+          transform 830ms cubic-bezier(0.19, 1, 0.22, 1),
+          visibility 830ms step-start;
+
+          
+      }
+     
+    }
+  }
+ 
+}
+
+.scrolled {
+
+  @include mq(xs) {
+    max-width: 100%;
+    padding: 2rem 3rem 0 0.8rem !important;
+  }
+
+  @include mq(sm) {
+    max-width: 100%;
+    padding: 3rem 4rem 4rem 0.8rem!important;
+  }
+
+  @include mq(md) {
+    max-width: 100%;
+    padding: $space-2 4rem 4rem 1.3rem !important;
+  }
+}
+
+.logo-icon {
+  animation: none;
+  transition: fill 183ms linear;
+  fill: #fd2755;
+}
+.logo svg {
+  height: 100%;
+    width: 100%;
+}

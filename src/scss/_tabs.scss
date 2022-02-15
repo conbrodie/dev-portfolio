@@ -1,0 +1,144 @@
+@import "_mixins.scss";
+@import "_variables.scss";
+
+ul.tabs__header {
+  display: block;
+  list-style: none;
+  padding: 0;
+  min-width: 15rem;
+
+  @include mq(xs) {
+    display: flex;
+    overflow-x: scroll;
+    padding-bottom: 20px;
+    min-width: 0rem;
+    width: calc(100% + 100px);
+    padding-left: 50px;
+    margin-left: -50px;
+    margin-bottom: 30px;
+  }
+
+  @include mq(md) {
+    display: block;
+    min-width: 15rem;
+    width: 0;
+  }
+}
+
+ul.tabs__header::-webkit-scrollbar {
+  display: none;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+ul.tabs__header > li:hover {
+  // box-shadow: inset 10rem 0em 0 #fc38384b;
+  box-shadow: inset 10em 0 0 0.09px rgba(255, 100, 134, 0.411);
+
+  @include mq(xs) {
+    box-shadow: none;
+  }
+
+  @include mq(md) {
+    box-shadow: inset 10em 0 0 0.09px rgba(255, 100, 134, 0.411);
+  }
+}
+
+ul.tabs__header > li {
+  padding: 15px 30px;
+  margin: 0;
+  cursor: pointer;
+  border-left: 2px solid #f1f1f12e;
+  transition: box-shadow 0.5s ease;
+
+  @include mq(xs) {
+    border-left: 0;
+    border-bottom: 2px solid #f1f1f12e;
+  }
+
+  @include mq(md) {
+    border-left: 2px solid #f1f1f12e;
+    border-bottom: 0;
+  }
+}
+
+ul.tabs__header > li.tab__selected {
+  font-weight: bold;
+  border-left: 2px solid #fd2755;
+  color: #fd2755;
+  @include mq(xs) {
+    border-left: 0;
+    border-bottom: 2px solid #fd2755;
+  }
+
+  @include mq(md) {
+    border-left: 2px solid #fd2755;
+    border-bottom: 0;
+  }
+}
+
+.tabs-wrapper {
+  display: flex;
+  @include mq(xs) {
+    flex-direction: column;
+  }
+
+  @include mq(md) {
+    flex-direction: initial;
+  }
+}
+
+.tab {
+  display: inline-block;
+  color: white;
+  padding: 0px 0px 0px 40px;
+  border-radius: 10px;
+  .tab-header {
+    padding-bottom: 1.5rem;
+  }
+  li {
+    margin-bottom: 10px;
+  }
+  @include mq(xs) {
+    padding: 0px;
+  }
+
+  @include mq(md) {
+    padding: 20px;
+  }
+}
+
+.tabs__light .tab {
+  background-color: #fff;
+}
+
+.tabs__light li {
+  background-color: #ddd;
+  color: #aaa;
+}
+
+.tabs__light li.tab__selected {
+  background-color: #fff;
+  color: #83ffb3;
+}
+
+.tabs__dark .tab {
+  background-color: #555;
+  color: #eee;
+}
+
+.tabs__dark li {
+  background-color: #ddd;
+  color: #aaa;
+}
+
+.tabs__dark li.tab__selected {
+  background-color: #555;
+  color: white;
+}
+
+.title-select {
+  margin-left: 10px;
+  color: #fd2755;
+  cursor: pointer;
+}

@@ -1,0 +1,59 @@
+//- global media vars
+
+$def: 320px;
+
+$xs: 23.5em; // 376px @media (max-width: $xs) {}
+$sm: 36em; // (min-width: 576px)
+$md: 48em; // (min-width: 768px)
+$lg: 62em; // (min-width: 992px)
+$gl: 64em; //! gap `lg - xl` (min-width: 1024px)
+$xl: 75em; // (min-width: 1200px)
+
+//- to container
+$col-xs: 440px; // (max-width: 540px)
+$col-sm: 640px; // (max-width: 540px)
+$col-md: 960px; // (max-width: 720px)
+$col-lg: 1140px; // (max-width: 960px)
+$col-xl: 1380px; // (max-width: 1140px)
+
+// padding
+
+$space-1: 3rem;
+$space-2: 4rem;
+$space-3: 6rem;
+$space-4: 8rem;
+
+// colors
+
+$bg-light-grey: #f8f9fa;
+
+$breakpoints: (
+  xs: $xs,
+  sm: $sm,
+  md: $md,
+  lg: $lg,
+  xl: $xl,
+);
+
+// hamburger
+
+$burger-width: 30px;
+$burger-height: 30px;
+$burger-thickness: 2px;
+$burger-color: white;
+$burger-activated-color: white;
+
+// ICONS ------------------------
+
+// Size
+
+$btn-sm: 20px;
+$btn-md: 25px;
+$btn-lg: 35px;
+$btn-xl: 65px;
+
+// Colour
+
+$icon-light-grey: #e5e5e5;
+
+// ------------------------------

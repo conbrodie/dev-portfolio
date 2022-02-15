@@ -1,0 +1,25 @@
+@import "_variables.scss";
+
+@mixin mq($breakpoint) {
+  @if map-has-key($breakpoints, $breakpoint) {
+    @media (min-width: #{map-get($breakpoints, $breakpoint)}) {
+      @content;
+    }
+  }
+}
+
+@mixin svg-button-size($font, $height) {
+  font-size: $font;
+  height: $height;
+}
+
+@mixin svg-button-bg($bg) {
+  color: $bg;
+  &:hover {
+    color:darken($bg,15%);
+    transition: all 0.3s ease;
+  }
+  &:active {
+    color:darken($bg,25%);
+  } 
+}

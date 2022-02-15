@@ -1,0 +1,35 @@
+@import "_mixins.scss";
+@import "_variables.scss";
+
+.svg-btn {
+    cursor: pointer;
+}
+
+.svg-btn-sm {
+    @extend .svg-btn;
+    @include svg-button-size($btn-sm, 1em)
+}
+
+.svg-btn-md {
+    @extend .svg-btn;
+    @include svg-button-size($btn-md, 1em)
+}
+
+.svg-btn-lg {
+    @extend .svg-btn;
+    @include svg-button-size($btn-lg, 1em)
+}
+
+.svg-btn-xl {
+    @extend .svg-btn;
+    @include svg-button-size($btn-xl, 1em)
+}
+
+.svg-btn-light {
+    @include svg-button-bg(#cececf);
+}
+
+.svg-btn-dark {
+    @include svg-button-bg(#646a78);
+}
+

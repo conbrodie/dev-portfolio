@@ -1,0 +1,37 @@
+@import "_variables.scss";
+
+.hamburger {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  overflow: hidden;
+  justify-content: space-around;
+  position: absolute;
+  opacity: 1;
+  z-index: 100;
+  right: 0;
+
+  span {
+    width: 100%;
+    height: $burger-thickness;
+    background-color: $burger-color;
+    transition: all 0.25s;
+  }
+
+  &.activated {
+    span {
+      background-color: $burger-activated-color;
+      &:nth-child(1) {
+        transform: translateY(($burger-height / 2) - ($burger-thickness + 7))
+          rotate(45deg);
+      }
+      &:nth-child(2) {
+        transform: translateY((-$burger-height / 2) + 9) rotate(-45deg);
+      }
+    }
+  }
+}
