@@ -21,6 +21,10 @@ body {
   margin: 0px 0px;
 }
 
+h4, .h4 {
+  font-size: calc(1.1rem + 0.3vw);
+}
+
 .container {
   position: relative;
   margin: 0 auto;
@@ -30,7 +34,7 @@ body {
 
   @include mq(xs) {
     max-width: 100%;
-    padding: $space-1 $space-1 ;
+    padding: $space-xs $space-xs;
   }
 
   @include mq(sm) {
@@ -68,7 +72,7 @@ body {
 
   @include mq(xs) {
     max-width: 100%;
-    padding: 2rem $space-1 2rem $space-1;
+    padding: 2rem 2rem 2rem 2rem;
   }
 
   // 36em
@@ -182,12 +186,12 @@ body {
 
   @include mq(xs) {
     grid-template-columns: repeat(1, 1fr);
-    margin: 0px -35px;
+    margin: 0px -18px;
   }
 
   @include mq(sm) {
     grid-template-columns: repeat(1, 1fr);
-    margin: 0px -35px;
+    margin: 0px -18px;
   }
 
   @include mq(md) {
@@ -208,7 +212,7 @@ body {
   grid-row-gap: 30px;
 
   @include mq(xs) {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     justify-items: center;
   }
 
@@ -230,7 +234,10 @@ body {
 .grid-icons  { 
   svg {
     @include mq(xs) {
-      font-size: 3.5rem;
+      font-size: 3rem;
+    }
+    @include mq(sm) {
+      font-size: 4rem;
     }
     @include mq(md) {
       font-size: 4rem;
@@ -444,8 +451,13 @@ a:hover {
 
 .hero {
   .text {
-    @include mq(sm) {
+
+    @include mq(xs) {
       font-size: 2rem;
+    }
+
+    @include mq(sm) {
+      font-size: 3rem;
     }
   
     @include mq(md) {
