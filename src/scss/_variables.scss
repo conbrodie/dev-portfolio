@@ -27,7 +27,7 @@ $space-4: 8rem;
 
 $bg-light-grey: #f8f9fa;
 
-$breakpoints: (
+$breakpoints-min: (
   xs: $xs,
   sm: $sm,
   md: $md,
@@ -35,8 +35,11 @@ $breakpoints: (
   xl: $xl,
 );
 
-// hamburger
+$breakpoints-max: (
+  xs: $xs,
+);
 
+// hamburger
 $burger-width: 30px;
 $burger-height: 30px;
 $burger-thickness: 2px;
