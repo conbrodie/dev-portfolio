@@ -4,9 +4,9 @@
       <div class="container d-flex">
         <div>
           <h4 class="">Hey, my name is</h4>
-          <h1 class="text fw-heavy">Connor Brodie.</h1>
+          <h1 class="text fw-heavy">Connor Brodie</h1>
           <h1 class="text fw-heavy" style="margin-bottom: 30px; color: #fd2755">
-            I build things that work
+            I build things that work.
           </h1>
           <h4 class="fw-light">
             Im a 3rd year computer science student specialising in building (and

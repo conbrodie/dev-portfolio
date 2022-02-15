@@ -1,6 +1,6 @@
 <template>
   <navbar></navbar>
-  <router-view />
+  <router-view></router-view>
   <footer class="bg-darker">
     <div class="container">
       <div class="section-header">
