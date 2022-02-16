@@ -3,14 +3,14 @@
     <div class="hero">
       <div class="container d-flex">
         <div>
-          <h4 class="">Hey, my name is</h4>
+          <h4 class="">Hi, my name is</h4>
           <h1 class="text fw-heavy">Connor Brodie</h1>
           <h1 class="text fw-heavy" style="margin-bottom: 30px; color: #fd2755">
             I build things that work.
           </h1>
           <h4 class="fw-light">
-            Im a 3rd year computer science student specialising in building (and
-            occasionally designing) intuitive digital experiences.
+            I'm a 3rd year computer science student specialising in building
+            (and occasionally designing) intuitive digital experiences.
           </h4>
         </div>
       </div>
@@ -39,7 +39,12 @@
             fill="#646a78"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <rect width="456" height="456" fill="currentcolor" />
+            <rect
+              width="456"
+              height="456"
+              fill="currentcolor"
+              v-tippy="{ content: '.Net Core', animation: 'scale' }"
+            />
             <path
               d="M81.2738 291.333C78.0496 291.333 75.309 290.259 73.052 288.11C70.795 285.906 69.6665 283.289 69.6665 280.259C69.6665 277.173 70.795 274.529 73.052 272.325C75.309 270.121 78.0496 269.019 81.2738 269.019C84.5518 269.019 87.3193 270.121 89.5763 272.325C91.887 274.529 93.0424 277.173 93.0424 280.259C93.0424 283.289 91.887 285.906 89.5763 288.11C87.3193 290.259 84.5518 291.333 81.2738 291.333Z"
               fill="white"
@@ -103,7 +108,7 @@
               <div class="d-flex">
                 <h4 class="fw-heavy">
                   <span> {{ company.jobTitle }}</span>
-                  <span class="company">
+                  <span class="company pass">
                     @
                     <a
                       class="shadow-underline"
@@ -267,7 +272,7 @@ export default {
       ],
       companies: [
         {
-          name: "ITD Solutions",
+          name: "ITDSolutions",
           jobTitle: "Freelance Software Developer",
           employmentTime: "2019 to Present",
           experience: [

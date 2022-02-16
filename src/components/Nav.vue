@@ -22,12 +22,12 @@
         </div>
         <div class="nav-menu" :class="{ activated: hamburgerActive }">
           <div class="section">
-            <div>
+            <div class="pass">
               <a href="#" class="shadow-underline fs-5" @click="goTo('work')"
                 >Work</a
               >
             </div>
-            <div>
+            <div class="pass">
               <a
                 href="#"
                 class="shadow-underline fs-5"
@@ -35,13 +35,13 @@
                 >Experience</a
               >
             </div>
-            <div>
+            <div class="pass">
               <a href="#" class="shadow-underline fs-5">Resume</a>
             </div>
           </div>
           <div class="section">
             <h5 class="fw-light ts-6">Say Hey</h5>
-            <div>
+            <div class="pass">
               <a
                 href="mailto:hey@connorbrodie.dev"
                 class="shadow-underline fs-5"

@@ -5,11 +5,11 @@
     <div class="container">
       <div class="section-header">
         <h1 class="text-light fw-heavy">Lets Talk.</h1>
-        <a
-          href="mailto:hey@connorbrodie.dev"
-          class="shadow-underline-dark fs-5 text-light"
-          >hey@connorbrodie.dev</a
-        >
+        <div class="pass">
+          <a href="mailto:hey@connorbrodie.dev" class="fs-5 text-light"
+            >hey@connorbrodie.dev</a
+          >
+        </div>
       </div>
       <div class="content">
         <div class="footer-icon-row externals-row">
@@ -30,16 +30,14 @@
           </a>
         </div>
         <div class="footer-nav">
-          <div>
-            <a href="#" class="shadow-underline-dark fs-6 text-light">Work</a>
+          <div class="pass">
+            <a href="#" class="fs-6 text-light">Work</a>
           </div>
-          <div>
-            <a href="#" class="shadow-underline-dark fs-6 text-light"
-              >Experience</a
-            >
+          <div class="pass">
+            <a href="#" class="fs-6 text-light">Experience</a>
           </div>
-          <div>
-            <a href="#" class="shadow-underline-dark fs-6 text-light">Resume</a>
+          <div class="pass">
+            <a href="#" class="fs-6 text-light">Resume</a>
           </div>
         </div>
       </div>
