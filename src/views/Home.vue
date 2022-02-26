@@ -174,7 +174,7 @@ export default {
           title: "Kanban API",
           technologies: ["C#", "Docker", "SQL"],
           description:
-            "An API designed to simulate a simple kanban board. Built using .Net core framework and uses swagger for API documentation.",
+            "An API designed to simulate a simple kanban board. Built using .Net core and uses swagger for API documentation.",
           links: [
             {
               icon: "github-square",

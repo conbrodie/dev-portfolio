@@ -36,7 +36,12 @@
               >
             </div>
             <div class="pass">
-              <a href="#" class="shadow-underline fs-5">Resume</a>
+              <a
+                href="https://drive.google.com/file/d/1AvFyDRzcAp_JWkUk9e4_uGdz6ga_8LTS/view?usp=sharing"
+                class="shadow-underline fs-5"
+                target="_blank"
+                >Resume</a
+              >
             </div>
           </div>
           <div class="section">
