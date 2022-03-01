@@ -179,7 +179,12 @@ export default {
             {
               icon: "github-square",
               style: "fab",
-              link: "https://github.com/conbrodie/kanabn-api",
+              link: "https://github.com/conbrodie/kanban_api",
+            },
+            {
+              icon: "external-link-square",
+              style: "far",
+              link: "http://kanban-env.eba-qskzrymi.ap-southeast-2.elasticbeanstalk.com/index.html",
             },
           ],
         },
@@ -207,32 +212,25 @@ export default {
           technologies: ["Sketch"],
           description:
             "I designed the Queensland Polices new Fraud Detection platform and authored the technical documentation for phase 1 of our university capstone project.",
-          links: [
-            {
-              icon: "external-link-square",
-              style: "far",
-              link: "https://www.google.com.au",
-            },
-          ],
         },
         {
-          img: require("../images/g.png"),
+          img: require("../images/dev.png"),
           imgBackgroundColor: "#212129",
           type: "Client",
-          title: "Granger Mechanical Repairs",
-          technologies: ["Docker", "Vue", "C#"],
+          title: "Personal Dev Portfolio",
+          technologies: ["Vue", "SCSS"],
           description:
-            "A website to help GMR build on online presence and display their services for customers.",
+            "A portfolio website. Built using Vue.js and SCSS and deployed to AWS.",
           links: [
             {
               icon: "github-square",
               style: "fab",
-              link: "https://www.google.com.au",
+              link: "https://github.com/conbrodie/dev-portfolio",
             },
             {
               icon: "external-link-square",
               style: "far",
-              link: "https://www.google.com.au",
+              link: "https://www.connorbrodie.dev",
             },
           ],
         },
