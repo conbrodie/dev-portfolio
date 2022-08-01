@@ -1,0 +1,8 @@
+@import "_mixins.scss";
+@import "_variables.scss";
+
+.badge {
+    background-color: $primary-red;
+    margin-bottom: 10px;
+}
+

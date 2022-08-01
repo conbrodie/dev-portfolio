@@ -35,14 +35,14 @@
                 >Experience</a
               >
             </div>
-            <div class="pass">
+            <!-- <div class="pass">
               <a
                 href="https://drive.google.com/file/d/1AvFyDRzcAp_JWkUk9e4_uGdz6ga_8LTS/view?usp=sharing"
                 class="shadow-underline fs-5"
                 target="_blank"
                 >Resume</a
               >
-            </div>
+            </div> -->
           </div>
           <div class="section">
             <h5 class="fw-light ts-6">Say Hey</h5>

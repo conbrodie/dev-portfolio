@@ -30,20 +30,20 @@
           </a>
         </div>
         <div class="footer-nav">
-          <!-- <div class="pass">
+          <div class="pass">
             <a href="#" class="fs-6 text-light">Work</a>
           </div>
           <div class="pass">
             <a href="#" class="fs-6 text-light">Experience</a>
-          </div> -->
-          <div class="pass">
+          </div>
+          <!-- <div class="pass">
             <a
               href="https://drive.google.com/file/d/1AvFyDRzcAp_JWkUk9e4_uGdz6ga_8LTS/view"
               target="_blank"
               class="fs-6 text-light"
               >Resume</a
             >
-          </div>
+          </div> -->
         </div>
       </div>
     </div>

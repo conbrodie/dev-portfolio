@@ -5,11 +5,12 @@
     </div>
     <div class="inner">
       <div class="c-header">
+        <Badge class="badge" :value="type"></Badge>
         <p class="fw-bold text-title">
           {{ title }}
         </p>
 
-        <p class="fw-light my-0">{{ type }}</p>
+        <p class="fw-light my-0">{{ description }}</p>
       </div>
       <div class="c-body">
         <div class="content-row">
@@ -42,7 +43,9 @@
 </template>
 
 <script>
+import Badge from "./Badge.vue";
 export default {
+  components: { Badge },
   name: "Project",
   props: {
     img: String,
@@ -51,6 +54,7 @@ export default {
     title: String,
     technologies: Array,
     links: Array,
+    description: String,
   },
 };
 </script>

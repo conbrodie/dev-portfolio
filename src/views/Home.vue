@@ -9,8 +9,18 @@
             I build things that work.
           </h1>
           <h4 class="fw-light">
-            I'm a 3rd year computer science student specialising in building
-            (and occasionally designing) intuitive digital experiences.
+            I'm currently working as a developer at
+            <span class="fw-heavy">
+              <span class="company pass">
+                <a
+                  class="shadow-underline"
+                  href="https://www.technologyone.com.au"
+                  target="_blank"
+                >
+                  TechnologyOne
+                </a></span
+              >
+            </span>
           </h4>
         </div>
       </div>
@@ -80,7 +90,8 @@
             :key="project"
             :img="project.img"
             :imgBackground="project.imgBackgroundColor"
-            :type="project.description"
+            :type="project.type"
+            :description="project.description"
             :title="project.title"
             :technologies="project.technologies"
             :links="project.links"
@@ -149,7 +160,7 @@ export default {
         {
           img: require("../images/sentiment.png"),
           imgBackgroundColor: "#212129",
-          type: "Personal",
+          type: "University",
           title: "CryptoCrowd",
           technologies: ["Node.js", "Express", "React", "AWS"],
           description:
@@ -160,10 +171,21 @@ export default {
               style: "fab",
               link: "https://github.com/conbrodie/crypto-crowd",
             },
+          ],
+        },
+        {
+          img: require("../images/qps-logo.png"),
+          imgBackgroundColor: "#212129",
+          type: "Client",
+          title: "Queensland Police Fraud Detection",
+          technologies: ["React", "Node.js", "Python", "Azure"],
+          description:
+            "A production ready fraud detection platform created for the Queensland Police that uses machine learning and Google Safe Browsing API to identify malicious attackers. Deployed to azure with CI/CD pipelines.",
+          links: [
             {
               icon: "external-link-square",
               style: "far",
-              link: "http://cryptomate-env.eba-ejtudum2.ap-southeast-2.elasticbeanstalk.com/",
+              link: "https://www.youtube.com/watch?v=p16x89jiKbo&ab_channel=ConnorBrodie",
             },
           ],
         },
@@ -181,17 +203,33 @@ export default {
               style: "fab",
               link: "https://github.com/conbrodie/kanban_api",
             },
+            // {
+            //   icon: "external-link-square",
+            //   style: "far",
+            //   link: "http://kanban-env.eba-qskzrymi.ap-southeast-2.elasticbeanstalk.com/index.html",
+            // },
+          ],
+        },
+        {
+          img: require("../images/powertorq.png"),
+          imgBackgroundColor: "#212129",
+          type: "Client",
+          title: "PowerTorq",
+          technologies: ["Vue", "Docker", "C#"],
+          description:
+            "A website created to improve PowerTorq's reach and sales. Built using Vue and C# and deployed to Digital Ocean.",
+          links: [
             {
               icon: "external-link-square",
               style: "far",
-              link: "http://kanban-env.eba-qskzrymi.ap-southeast-2.elasticbeanstalk.com/index.html",
+              link: "https://www.powertorq.com.au",
             },
           ],
         },
         {
           img: require("../images/rubiks.png"),
           imgBackgroundColor: "#212129",
-          type: "Personal",
+          type: "University",
           title: "2x2x2 Rubiks Solver",
           technologies: ["Python"],
           description:
@@ -205,48 +243,18 @@ export default {
           ],
         },
         {
-          img: require("../images/qps-logo.png"),
+          img: require("../images/AssetTrading.jpg"),
           imgBackgroundColor: "#212129",
-          type: "Personal",
-          title: "QPS Application Design",
-          technologies: ["Sketch"],
+          type: "University",
+          title: "Asset Trading Platform",
+          technologies: ["Java", "MariaDB"],
           description:
-            "I designed the Queensland Polices new Fraud Detection platform and authored the technical documentation for phase 1 of our university capstone project.",
-        },
-        {
-          img: require("../images/dev.png"),
-          imgBackgroundColor: "#212129",
-          type: "Client",
-          title: "Personal Dev Portfolio",
-          technologies: ["Vue", "SCSS"],
-          description:
-            "A portfolio website. Built using Vue.js and SCSS and deployed to AWS.",
+            "A client-server system in Java for trading of virtual assets within company departments. Utilised SDLC by covering requirements, database design, class diagram, network protocol design and GUI wireframes.",
           links: [
             {
               icon: "github-square",
               style: "fab",
-              link: "https://github.com/conbrodie/dev-portfolio",
-            },
-            {
-              icon: "external-link-square",
-              style: "far",
-              link: "https://www.connorbrodie.dev",
-            },
-          ],
-        },
-        {
-          img: require("../images/powertorq.png"),
-          imgBackgroundColor: "#212129",
-          type: "Personal",
-          title: "PowerTorq",
-          technologies: ["Vue", "Docker", "C#"],
-          description:
-            "A website created to improve PowerTorq's reach and sales. Built using Vue and C# and deployed to Digital Ocean.",
-          links: [
-            {
-              icon: "external-link-square",
-              style: "far",
-              link: "https://www.powertorq.com.au",
+              link: "https://github.com/conbrodie/AssetTradingPlatfom",
             },
           ],
         },
@@ -260,7 +268,7 @@ export default {
         },
         { prefix: "fab", suffix: "vuejs", color: "#08ad7e", name: "Vue.js" },
         { prefix: "fab", suffix: "node", color: "#519842", name: "Node.js" },
-        { prefix: "fab", suffix: "css3-alt", color: "#ff5400", name: "CSS" },
+        { prefix: "fab", suffix: "react", color: "#14daff", name: "React" },
         {
           prefix: "fab",
           suffix: "sketch",
@@ -270,9 +278,19 @@ export default {
       ],
       companies: [
         {
+          name: "TechnologyOne",
+          jobTitle: "Software Developer",
+          employmentTime: "July 2022 to Present",
+          experience: [
+            "Collaborate with Product development team members to navigate Product feature and other technical complexities",
+            "Work with a variety of different languages, platforms and frameworks such as React, .Net, AWS and Kubernetes",
+          ],
+          link: "https://www.technologyone.com.au",
+        },
+        {
           name: "ITDSolutions",
-          jobTitle: "Freelance Software Developer",
-          employmentTime: "2019 to Present",
+          jobTitle: "Freelance Web Developer",
+          employmentTime: "2019 to 2021",
           experience: [
             "Write modern, performant, maintainable code for a diverse array of client projects.",
             "Work with a variety of different languages, platforms and frameworks such as JavaScript, Vue, .Net, Digital Ocean.",
@@ -282,7 +300,7 @@ export default {
         },
         {
           name: "Wicet",
-          jobTitle: "UI Designer",
+          jobTitle: "UI Designer/Web Development",
           employmentTime: "2017 to 2018",
           experience: [
             "Researched and designed multiple user interfaces for critical internal applications.",

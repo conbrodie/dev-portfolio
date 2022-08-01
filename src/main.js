@@ -17,6 +17,7 @@ import {
   faCss3Alt,
   faSketch,
   faLinkedin,
+  faReact,
 } from "@fortawesome/free-brands-svg-icons";
 
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
@@ -31,7 +32,8 @@ library.add(
   faNode,
   faCss3Alt,
   faSketch,
-  faLinkedin
+  faLinkedin,
+  faReact
 );
 
 const app = createApp(App);
