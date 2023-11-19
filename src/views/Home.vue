@@ -3,8 +3,8 @@
     <div class="hero">
       <div class="container d-flex">
         <div>
-          <h4 class="">Hi, my name is</h4>
-          <h1 class="text fw-heavy">Connor Brodie</h1>
+          <h4 class="">Hey, my name is</h4>
+          <h1 class="text fw-heavy">Connor &#128075;</h1>
           <h1 class="text fw-heavy" style="margin-bottom: 30px; color: #fd2755">
             I build things that work.
           </h1>
@@ -21,6 +21,7 @@
                 </a></span
               >
             </span>
+            building a new search engine using ElasticSearch, C# and Docker.
           </h4>
         </div>
       </div>
@@ -32,6 +33,71 @@
           <h1 class="text-light fw-light">Core Competencies</h1>
         </div>
         <div class="grid-icons">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            width="59px"
+            height="65px"
+            viewBox="0 0 222 249"
+            v-tippy="{
+              content: 'C# / .Net',
+              animation: 'scale',
+            }"
+          >
+            <rect
+              v-tippy="{
+                content: '',
+                animation: 'scale',
+              }"
+            />
+            <g id="surface1">
+              <path
+                style="
+                  stroke: none;
+                  fill-rule: nonzero;
+                  fill: rgb(63.137255%, 47.45098%, 86.27451%);
+                  fill-opacity: 1;
+                "
+                d="M 221.011719 73.710938 C 221.011719 69.566406 220.121094 65.902344 218.324219 62.757812 C 216.558594 59.667969 213.910156 57.074219 210.363281 55.027344 C 181.066406 38.1875 151.746094 21.398438 122.460938 4.542969 C 114.5625 0 106.910156 0.167969 99.074219 4.777344 C 87.414062 11.628906 29.035156 44.972656 11.636719 55.015625 C 4.472656 59.152344 0.988281 65.480469 0.988281 73.703125 C 0.976562 107.566406 0.988281 141.433594 0.976562 175.296875 C 0.976562 179.351562 1.828125 182.945312 3.546875 186.039062 C 5.316406 189.222656 8 191.886719 11.628906 193.980469 C 29.027344 204.027344 87.410156 237.367188 99.070312 244.222656 C 106.910156 248.835938 114.5625 249 122.460938 244.457031 C 151.75 227.597656 181.074219 210.8125 210.371094 193.972656 C 214.003906 191.878906 216.683594 189.214844 218.453125 186.03125 C 220.167969 182.933594 221.023438 179.34375 221.023438 175.285156 C 221.023438 175.285156 221.023438 107.574219 221.011719 73.710938 "
+              />
+              <path
+                style="
+                  stroke: none;
+                  fill-rule: nonzero;
+                  fill: rgb(15.686275%, 0%, 40.784314%);
+                  fill-opacity: 1;
+                "
+                d="M 111.335938 124.167969 L 3.546875 186.039062 C 5.316406 189.222656 8 191.886719 11.628906 193.980469 C 29.027344 204.027344 87.410156 237.367188 99.070312 244.222656 C 106.910156 248.835938 114.5625 249 122.460938 244.457031 C 151.75 227.597656 181.074219 210.8125 210.371094 193.972656 C 214.003906 191.878906 216.683594 189.214844 218.453125 186.03125 Z M 111.335938 124.167969 "
+              />
+              <path
+                style="
+                  stroke: none;
+                  fill-rule: nonzero;
+                  fill: rgb(22.352941%, 0%, 56.862745%);
+                  fill-opacity: 1;
+                "
+                d="M 221.011719 73.710938 C 221.011719 69.566406 220.121094 65.902344 218.324219 62.757812 L 111.335938 124.171875 L 218.453125 186.03125 C 220.167969 182.933594 221.023438 179.34375 221.023438 175.285156 C 221.023438 175.285156 221.023438 107.574219 221.011719 73.710938 "
+              />
+              <path
+                style="
+                  stroke: none;
+                  fill-rule: nonzero;
+                  fill: rgb(100%, 100%, 100%);
+                  fill-opacity: 1;
+                "
+                d="M 174.800781 101.039062 L 174.800781 112.605469 L 186.398438 112.605469 L 186.398438 101.039062 L 192.199219 101.039062 L 192.199219 112.605469 L 203.800781 112.605469 L 203.800781 118.386719 L 192.199219 118.386719 L 192.199219 129.953125 L 203.800781 129.953125 L 203.800781 135.734375 L 192.199219 135.734375 L 192.199219 147.300781 L 186.398438 147.300781 L 186.398438 135.734375 L 174.800781 135.734375 L 174.800781 147.300781 L 169 147.300781 L 169 135.734375 L 157.398438 135.734375 L 157.398438 129.953125 L 169 129.953125 L 169 118.386719 L 157.398438 118.386719 L 157.398438 112.605469 L 169 112.605469 L 169 101.039062 Z M 186.398438 118.386719 L 174.800781 118.386719 L 174.800781 129.953125 L 186.398438 129.953125 Z M 186.398438 118.386719 "
+              />
+              <path
+                style="
+                  stroke: none;
+                  fill-rule: nonzero;
+                  fill: rgb(100%, 100%, 100%);
+                  fill-opacity: 1;
+                "
+                d="M 111.574219 42.960938 C 141.832031 42.960938 168.25 59.34375 182.398438 83.691406 L 182.261719 83.457031 L 146.660156 103.894531 C 139.644531 92.054688 126.789062 84.066406 112.039062 83.898438 L 111.574219 83.898438 C 89.078125 83.898438 70.84375 102.074219 70.84375 124.5 C 70.835938 131.566406 72.6875 138.511719 76.214844 144.644531 C 83.234375 156.863281 96.433594 165.101562 111.574219 165.101562 C 126.804688 165.101562 140.078125 156.757812 147.0625 144.410156 L 146.894531 144.703125 L 182.441406 165.234375 C 168.445312 189.378906 142.390625 205.707031 112.484375 206.035156 L 111.574219 206.039062 C 81.21875 206.039062 54.726562 189.554688 40.613281 165.078125 C 33.722656 153.125 29.78125 139.273438 29.78125 124.5 C 29.78125 79.46875 66.398438 42.960938 111.574219 42.960938 Z M 111.574219 42.960938 "
+              />
+            </g>
+          </svg>
           <font-awesome-icon
             v-for="icon in technologies"
             :key="icon"
@@ -40,38 +106,11 @@
             :style="{ color: icon.color }"
             v-tippy="{ content: icon.name, animation: 'scale' }"
           />
-          <svg
-            style="color: #4e2acd"
-            class="svg-inline--fa fa-sketch fa-w-16 icon-lg ms-1"
-            width="456"
-            height="456"
-            viewBox="0 0 456 456"
-            fill="#646a78"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <rect
-              width="456"
-              height="456"
-              fill="currentcolor"
-              v-tippy="{ content: '.Net Core', animation: 'scale' }"
-            />
-            <path
-              d="M81.2738 291.333C78.0496 291.333 75.309 290.259 73.052 288.11C70.795 285.906 69.6665 283.289 69.6665 280.259C69.6665 277.173 70.795 274.529 73.052 272.325C75.309 270.121 78.0496 269.019 81.2738 269.019C84.5518 269.019 87.3193 270.121 89.5763 272.325C91.887 274.529 93.0424 277.173 93.0424 280.259C93.0424 283.289 91.887 285.906 89.5763 288.11C87.3193 290.259 84.5518 291.333 81.2738 291.333Z"
-              fill="white"
-            />
-            <path
-              d="M210.167 289.515H189.209L133.994 202.406C132.597 200.202 131.441 197.915 130.528 195.546H130.044C130.474 198.081 130.689 203.508 130.689 211.827V289.515H112.149V171H134.477L187.839 256.043C190.096 259.57 191.547 261.994 192.192 263.316H192.514C191.977 260.176 191.708 254.859 191.708 247.365V171H210.167V289.515Z"
-              fill="white"
-            />
-            <path
-              d="M300.449 289.515H235.561V171H297.87V187.695H254.746V221.249H294.485V237.861H254.746V272.903H300.449V289.515Z"
-              fill="white"
-            />
-            <path
-              d="M392.667 187.695H359.457V289.515H340.272V187.695H307.143V171H392.667V187.695Z"
-              fill="white"
-            />
-          </svg>
+          <inline-svg
+            :src="elastic"
+            fill="white"
+            v-tippy="{ content: 'Elasticsearch', animation: 'scale' }"
+          />
         </div>
       </div>
     </div>
@@ -156,23 +195,8 @@ export default {
   components: { project, tab, tabs },
   data: function () {
     return {
+      elastic: require("../images/elastic.svg"),
       projects: [
-        {
-          img: require("../images/sentiment.png"),
-          imgBackgroundColor: "#212129",
-          type: "University",
-          title: "CryptoCrowd",
-          technologies: ["Node.js", "Express", "React", "AWS"],
-          description:
-            "Cryptocurrency sentiment analysis on Twitter posts. This is a Stateless application that uses Elasticache and S3 on AWS and built using React and Node.js.",
-          links: [
-            {
-              icon: "github-square",
-              style: "fab",
-              link: "https://github.com/conbrodie/crypto-crowd",
-            },
-          ],
-        },
         {
           img: require("../images/qps-logo.png"),
           imgBackgroundColor: "#212129",
@@ -180,12 +204,28 @@ export default {
           title: "Queensland Police Fraud Detection",
           technologies: ["React", "Node.js", "Python", "Azure"],
           description:
-            "A production ready fraud detection platform created for the Queensland Police that uses machine learning and Google Safe Browsing API to identify malicious attackers. Deployed to azure with CI/CD pipelines.",
+            "A production ready fraud detection platform created for the Queensland Police deployed to Azure which uses machine learning and Google's Safe Browsing API to identify malicious attackers.",
           links: [
             {
               icon: "external-link-square",
               style: "far",
               link: "https://www.youtube.com/watch?v=p16x89jiKbo&ab_channel=ConnorBrodie",
+            },
+          ],
+        },
+        {
+          img: require("../images/sentiment.png"),
+          imgBackgroundColor: "#212129",
+          type: "University",
+          title: "CryptoCrowd",
+          technologies: ["Node.js", "Express", "React", "AWS"],
+          description:
+            "Cryptocurrency sentiment analysis on Twitter posts. This is a Stateless application that uses Elasticache, S3, EC2 and auto-scaling to manage demand. Built using React and Node.js.",
+          links: [
+            {
+              icon: "github-square",
+              style: "fab",
+              link: "https://github.com/conbrodie/crypto-crowd",
             },
           ],
         },
@@ -196,7 +236,7 @@ export default {
           title: "Kanban API",
           technologies: ["C#", "Docker", "SQL"],
           description:
-            "An API designed to simulate a simple kanban board. Built using .Net core and uses swagger for API documentation.",
+            "An API designed to simulate a simple kanban board. Built using C#, .Net Framework, SQL Server and Swagger for API documentation.",
           links: [
             {
               icon: "github-square",
@@ -215,9 +255,9 @@ export default {
           imgBackgroundColor: "#212129",
           type: "Client",
           title: "PowerTorq",
-          technologies: ["Vue", "Docker", "C#"],
+          technologies: ["Vue", "Docker", "C#", "Linux"],
           description:
-            "A website created to improve PowerTorq's reach and sales. Built using Vue and C# and deployed to Digital Ocean.",
+            "A website created to improve PowerTorq's reach and sales. Built using Vue.js, C#, Docker & Docker Compose and deployed to Digital Ocean on Ubuntu.",
           links: [
             {
               icon: "external-link-square",
@@ -260,21 +300,15 @@ export default {
         },
       ],
       technologies: [
+        { prefix: "fab", suffix: "react", color: "#14daff", name: "React" },
+        { prefix: "fab", suffix: "docker", color: "#1e63ed", name: "Docker" },
         {
           prefix: "fab",
           suffix: "github-square",
           color: "#c3c3c4",
           name: "Github",
         },
-        { prefix: "fab", suffix: "vuejs", color: "#08ad7e", name: "Vue.js" },
-        { prefix: "fab", suffix: "node", color: "#519842", name: "Node.js" },
-        { prefix: "fab", suffix: "react", color: "#14daff", name: "React" },
-        {
-          prefix: "fab",
-          suffix: "sketch",
-          color: "#ffb200",
-          name: "Sketch",
-        },
+        { prefix: "fab", suffix: "node", color: "#08ad7e", name: "Node.js" },
       ],
       companies: [
         {
@@ -282,8 +316,9 @@ export default {
           jobTitle: "Software Developer",
           employmentTime: "July 2022 to Present",
           experience: [
-            "Collaborate with Product development team members to navigate Product feature and other technical complexities",
-            "Work with a variety of different languages, platforms and frameworks such as React, .Net, AWS and Kubernetes",
+            "Enterprise level implementation of containerised OpenSearch (ElasticSearch) platform for document and generic business entity search (Docker, OpenSearch, C# ASP.NET, PostgreSQL, Tesseract OCR, AWS)",
+            "Enterprise level implementation of Sharepoint automatic document ingestion (C# ASP.NET, Aspose, HTML/CSS, Typescript, Microsoft Graph API)",
+            "Feature work and support for Enterprise Content Management (C# ASP.NET, Aspose, PostgreSQL, TeamCity, Rider, BitBucket, Confluence, Jira)",
           ],
           link: "https://www.technologyone.com.au",
         },
@@ -300,7 +335,7 @@ export default {
         },
         {
           name: "Wicet",
-          jobTitle: "UI Designer/Web Development",
+          jobTitle: "Web Developer",
           employmentTime: "2017 to 2018",
           experience: [
             "Researched and designed multiple user interfaces for critical internal applications.",
@@ -314,10 +349,20 @@ export default {
   },
   methods: {
     goTo(ref) {
-      var element = this.$refs[ref];
-      var topOfElement = element.offsetTop;
+      // Prevent the default link behavior
+      event.preventDefault();
+      event.stopPropagation();
 
-      window.scrollTo(0, topOfElement);
+      var element = this.$refs[ref];
+      var topOfElement = element.getBoundingClientRect().top;
+
+      if (element) {
+        // Scroll to the top of the element
+        window.scrollTo({
+          top: window.scrollY + topOfElement,
+          behavior: "smooth", // You can also use 'auto' or 'instant'
+        });
+      }
     },
   },
   mounted() {
